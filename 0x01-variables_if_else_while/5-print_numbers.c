@@ -1,23 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 /**
- * main - Prints the alphabet without q and e.
- *
- * Return: Always 0 (Success)
- */
+  * main - Prints the numbers since 0 to 9
+  *
+  * Return: Always (Success)
+  */
 int main(void)
 {
-	int i;
+	char n;
 
-	for (i = 97; i < 123; i++)
+	for (n = '0'; n <= '9'; n++)
 	{
-		if (i != 101 && i != 113)
-		{
-			putchar(i);
-		}
+		putchar(n);
 	}
+
 	putchar('\n');
+
 	return (0);
 }
